@@ -102,9 +102,9 @@ const CertificationsPage: React.FC = () => {
                     rel="noopener noreferrer"
                     className="mt-4 md:mt-0 flex items-center space-x-2 text-accent-500 hover:text-accent-600 font-medium transition-colors duration-200 text-sm sm:text-base" // Responsive text size
                   >
-                    <LinkIcon className="h-4 w-4 sm:h-5 sm:w-5" />{" "}
+                    {/* <LinkIcon className="h-4 w-4 sm:h-5 sm:w-5" />{" "} */}
                     {/* Responsive icon size */}
-                    <span>View Details</span>
+                    {/* <span>View Details</span> */}
                   </a>
                 )}
               </motion.div>
@@ -170,7 +170,7 @@ const CertificationsPage: React.FC = () => {
                   >
                     <LinkIcon className="h-4 w-4 sm:h-5 sm:w-5" />{" "}
                     {/* Responsive icon size */}
-                    <span>View Credential</span>
+                    <span>View</span>
                   </a>
                 )}
               </motion.div>

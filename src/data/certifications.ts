@@ -8,25 +8,25 @@ const certifications: ICertification[] = [
     id: "bca-atharva",
     name: "Bachelor of Computer Applications (BCA)",
     issuer: "Atharva Institute",
-    date: "2022 – 2025 (Expected)", // Use 'Expected' as it's an ongoing degree
-    link: "https://atharvainstitute.edu.in/", // Replace with actual Atharva Institute's website if applicable
+    date: "2025", // Use 'Expected' as it's an ongoing degree
+    link: "https://atharvainstitute.edu.in/", 
   },
   // Certifications
   {
     id: "full-stack-pride-educare",
-    name: "Full Stack Web Development Certification",
+    name: "Core Java",
     issuer: "Pride Educare",
-    date: "August 2024", // Example date, replace with actual completion date
-    link: "https://www.prideeducare.com/certifications/fullstack", // Example link, replace with actual certification URL if available
+    date: "April 2025", 
+    link: "https://github.com/amritanshu121/Certificate-/blob/main/core%20java.pdf",
   },
-  // Add more certifications here as Abhishek completes them
-  // {
-  //   id: 'aws-developer',
-  //   name: 'AWS Certified Developer - Associate',
-  //   issuer: 'Amazon Web Services (AWS)',
-  //   date: 'January 2025',
-  //   link: 'https://www.credly.com/badges/your-aws-badge-id',
-  // },
+  {
+    id: "full-stack-pride-educare",
+    name: "Advance Java",
+    issuer: "Pride Educare",
+    date: "August 2025", 
+    link: "https://github.com/amritanshu121/Certificate-/blob/main/Advance%20java.pdf",
+  },
+ 
 ];
 
 export default certifications;

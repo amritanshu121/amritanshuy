@@ -38,7 +38,7 @@ const Home: React.FC = () => {
   };
 
   const handleDownloadCV = () => {
-    const resumeUrl = "/assets/AmritanshuYadavResume-15.pdf";
+    const resumeUrl = "/assets/amritanshu01.pdf";
     window.open(resumeUrl, "_blank");
   };
 
